@@ -59,7 +59,7 @@ def get_paid(salary)
 end
 
 def take_bath
-    self.hygiene=4
+    self.hygiene=(@hygiene +=4)
     return "♪ Rub-a-dub just relaxing in the tub ♫"
 end
 
